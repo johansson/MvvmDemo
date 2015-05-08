@@ -13,6 +13,12 @@
 		BE3AE9841AFC24E1005C1B40 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE3AE9831AFC24E1005C1B40 /* Images.xcassets */; };
 		BE3AE9871AFC24E1005C1B40 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BE3AE9851AFC24E1005C1B40 /* LaunchScreen.xib */; };
 		BE3AE9931AFC24E1005C1B40 /* MvvmDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE3AE9921AFC24E1005C1B40 /* MvvmDemoTests.swift */; };
+		BE3AE99D1AFC2538005C1B40 /* ViewModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE3AE99C1AFC2538005C1B40 /* ViewModels.swift */; };
+		BEBEF11A1AFC9B3800A36C36 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEBEF1191AFC9B3800A36C36 /* Models.swift */; };
+		BEBEF11C1AFC9B8E00A36C36 /* Commands.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEBEF11B1AFC9B8E00A36C36 /* Commands.swift */; };
+		BEBEF11D1AFD173B00A36C36 /* Commands.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEBEF11B1AFC9B8E00A36C36 /* Commands.swift */; };
+		BEBEF11E1AFD174D00A36C36 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEBEF1191AFC9B3800A36C36 /* Models.swift */; };
+		BEBEF11F1AFD175000A36C36 /* ViewModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE3AE99C1AFC2538005C1B40 /* ViewModels.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +42,9 @@
 		BE3AE98C1AFC24E1005C1B40 /* MvvmDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MvvmDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE3AE9911AFC24E1005C1B40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BE3AE9921AFC24E1005C1B40 /* MvvmDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MvvmDemoTests.swift; sourceTree = "<group>"; };
+		BE3AE99C1AFC2538005C1B40 /* ViewModels.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewModels.swift; sourceTree = "<group>"; };
+		BEBEF1191AFC9B3800A36C36 /* Models.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		BEBEF11B1AFC9B8E00A36C36 /* Commands.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Commands.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +92,9 @@
 				BE3AE9831AFC24E1005C1B40 /* Images.xcassets */,
 				BE3AE9851AFC24E1005C1B40 /* LaunchScreen.xib */,
 				BE3AE97A1AFC24E1005C1B40 /* Supporting Files */,
+				BE3AE99C1AFC2538005C1B40 /* ViewModels.swift */,
+				BEBEF1191AFC9B3800A36C36 /* Models.swift */,
+				BEBEF11B1AFC9B8E00A36C36 /* Commands.swift */,
 			);
 			path = MvvmDemo;
 			sourceTree = "<group>";
@@ -214,6 +226,9 @@
 			files = (
 				BE3AE97F1AFC24E1005C1B40 /* ViewController.swift in Sources */,
 				BE3AE97D1AFC24E1005C1B40 /* AppDelegate.swift in Sources */,
+				BE3AE99D1AFC2538005C1B40 /* ViewModels.swift in Sources */,
+				BEBEF11C1AFC9B8E00A36C36 /* Commands.swift in Sources */,
+				BEBEF11A1AFC9B3800A36C36 /* Models.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -221,7 +236,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BEBEF11E1AFD174D00A36C36 /* Models.swift in Sources */,
 				BE3AE9931AFC24E1005C1B40 /* MvvmDemoTests.swift in Sources */,
+				BEBEF11F1AFD175000A36C36 /* ViewModels.swift in Sources */,
+				BEBEF11D1AFD173B00A36C36 /* Commands.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -409,6 +427,7 @@
 				BE3AE9981AFC24E1005C1B40 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BE3AE9991AFC24E1005C1B40 /* Build configuration list for PBXNativeTarget "MvvmDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +436,7 @@
 				BE3AE99B1AFC24E1005C1B40 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
